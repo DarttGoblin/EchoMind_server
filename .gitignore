@@ -1,4 +1,3 @@
-data/audios
-data/.other_files/
+.other_files/
 models/
-notebooks/
+data/
