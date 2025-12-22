@@ -1,7 +1,7 @@
 import os
 from tqdm import tqdm
 
-dataset_folder = "../../.other_files/original_data/audios_length_trimmed_to_5s"
+dataset_folder = "../data/audios_3s/input_audios"
 
 counts = {
     "english": 0,

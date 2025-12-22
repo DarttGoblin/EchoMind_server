@@ -1,0 +1,39 @@
+{
+  "dataset": {
+    "total_samples": 25000,
+    "train_samples": 17500,
+    "val_samples": 3750,
+    "test_samples": 3750
+  },
+  "training": {
+    "epochs": 40,
+    "batch_size": 2,
+    "accumulation_steps": 4,
+    "effective_batch_size": 8
+  },
+  "model": {
+    "total_parameters": 188877378,
+    "trainable_parameters": 15181888,
+    "latent_channels": 128,
+    "unet_channels": [
+      64,
+      128,
+      256,
+      512
+    ]
+  },
+  "results": {
+    "best_train_loss": 0.6437653182336263,
+    "best_val_loss": 0.6368268907388052,
+    "test_loss": 0.6392956440289815,
+    "test_audio_loss": 0.10133282456298669,
+    "test_latent_loss": 5.379628091176351
+  },
+  "config": {
+    "sample_rate": 44100,
+    "max_audio_length": 220500,
+    "lr_unet": 1e-05,
+    "audio_loss_weight": 1.0,
+    "latent_loss_weight": 0.1
+  }
+}

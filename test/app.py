@@ -249,7 +249,7 @@ def load_model(model_path, dac_model_path=None, use_device='cuda'):
     
     # Load DAC model
     if dac_model_path is None:
-        dac_model_path = "../models/weights_44khz_8kbps_0.0.1.pth"
+        dac_model_path = "../models/weights_44khz_16kbps.pth"
     
     print(f"Loading DAC model from: {dac_model_path}")
     
