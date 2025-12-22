@@ -2,12 +2,13 @@ EchoMind: Speech Audio Editing with Automatic Sound Effect Insertion
 
 🚨 HOW TO RUN INFERENCE 🚨
 
-1. Clone EchoMind interface repo through this link: https://darttgoblin.github.io/EchoMind/EchoMind.html
-2. Clone EchoMind backend server repo
-3. Download the models from google drive though this link: https://drive.google.com/drive/folders/18ffQVEJmYp6j8aMZgL3yBF4YfF8Yu78h?usp=sharing
-4. Install the dependencies using the following command: pip install flask flask-cors torch torchaudio soundfile transformers einops werkzeug tqdm descript-audio-codec
-5. Run app.py ../models/[chosen model].pt
-6. Test the chosen model on you audio
+1. Clone EchoMind interface repository through this link: https://darttgoblin.github.io/EchoMind/EchoMind.html
+2. Clone EchoMind backend server repository (this repository)
+3. Create the folder "models" in the repository root and download the 25k_best_model.pt model (best model for inference) from Kaggle through this link: https://www.kaggle.com/models/yassinebazgour/echomind/ and put it int the models folder.
+4. Download the DAC model through this link: https://github.com/descriptinc/descript-audio-codec/, then enter releases at the right side of repo then download "1.0.0/weights_44khz_16kbps.pth", and save it at models folder
+5. Install the dependencies using the following command: pip install flask flask-cors torch torchaudio soundfile transformers einops werkzeug tqdm descript-audio-codec
+6. Run app.py ../models/[chosen model].pt
+7. Test the chosen model on your audio
 
 EchoMind is a research-oriented project that explores automatic sound effect insertion into speech audio using deep learning. The goal is to simplify audio editing by enabling a model to understand when and how to apply sound effects based on a textual prompt, while preserving the natural structure and intelligibility of the original speech.
 
