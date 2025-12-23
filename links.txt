@@ -2,7 +2,7 @@ Report Link:
 https://drive.google.com/drive/folders/1WPyOK3dbeotJuEKLYy-1yqrXLM8CKBFO?usp=sharing
 
 Models Link:
-https://drive.google.com/drive/folders/18ffQVEJmYp6j8aMZgL3yBF4YfF8Yu78h?usp=sharing
+https://www.kaggle.com/models/yassinebazgour/echomind
 
 Demo Link:
 https://drive.google.com/file/d/1kDZCo__0L_6xj5P3gQOHTxh_YQLtGeCD/view?usp=sharing
